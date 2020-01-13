@@ -2,23 +2,82 @@ body {
     font-family:'Inria Serif', serif;
     background-color: lightgrey;
 }
-h2 {
+h2,p,a {
     text-align: center;
     color: rgb(158, 107, 107);
     text-decoration: none;
+    }
+a:hover {
+font-weight: bold;
+cursor: pointer;
+color: black
+}
+
+.box {
+    border: 1px solid rgb(0, 132, 255) ;
+    margin: 0;
+    border-radius: 30px;
+    width: 30em;
+    background-color: midnightblue;
+    display: block;
     
 }
-p {
+
+.readme-wrapper {
     text-align: center;
-    color: rgb(158, 107, 107);
-    text-decoration: none;
-   
+
 }
-a {
-    text-align: center;
-    color:rgb(158, 107, 107);
-    text-decoration: none;
+span{
+    font-weight: 900; color: lightseagreen;
 }
-.box {
-    border: 1px solid black;
+.boxes {
+    margin: 0;
+    padding: 5em;
+    border: solid rgb(rgb(0, 204, 255), green, blue);
+}
+.image {
+height: 50px;
+width: 50px;
+border-radius: 50px;
+background-color: black;
+
+}
+.original {
+color: blue;
+}
+
+.additional {
+color:yellow;
+}
+
+#best{
+    color: purple;
+}
+#besty{
+    color: blue;
+
+}
+#bestiest{
+    color: fuchsia;
+}
+#bester{
+    color:red;
+
+}
+#bast{
+    color:lime;
+}
+ul{
+    color: green;
+}
+.star{
+    color:orange;
+}
+#wars{
+    color:red;
+}
+.fix{
+    border-width: 2px;
+    border: solid black;
+    
 }
